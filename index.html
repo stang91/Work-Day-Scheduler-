@@ -31,76 +31,18 @@
     <div class="container">
       <!-- Timeblocks go here -->
 
-      <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#exampleModalScrollable">
-        Launch demo modal
-      </button>
-
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <!-- use moment() for select time-->
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">Select time</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option>1am</option>
-                  </select>
-                </div>
-                <!-- what to use as select and use dropbox -->
-                
-                <div class="form-group input-group mb-3 mx-0 p-0 col-12">
-                  <div class="input-group-prepend mx-0 p-0 col-4">
-                    <label class="input-group-text mx-0 col-12" for="inputGroupSelect01">Options</label>
-                  </div>
-                  <!-- dropdown -->
-                  <div class="dropdown mx-0 p-0 col-8">
-                    <button class="btn btn-secondary dropdown-toggle mx-0 col-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropdown button
-                    </button>
-                    <div class="dropdown-menu m-0 p-0" aria-labelledby="dropdownMenuButton">
-                      <button type="button" class="btn btn-block m-0 btn-success">Success</button>
-                      <button type="button" class="btn btn-block m-0 btn-danger">Danger</button>
-                      <button type="button" class="btn btn-block m-0 btn-warning">Warning</button>
-                      <button type="button" class="btn btn-block m-0 btn-info">Info</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Notes:</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      
       <!-- clone container input group -->
-      <div class="input-group container-fluid p-0 custom-hours0 custom-clone">
+      <div class="input-group container-fluid p-0 custom-hours0 custom-clone changeColor">
         <!-- time Element -->
-        <div class="input-group-prepend p-0 col-2">
+        <div class="input-group-prepend p-0 col-xl-2 col-sm-12 col-md-3 col-xm-12">
           <span class="input-group-text col-12 d-flex justify-content-center time0" id="addClass">12 AM</span>
         </div>
         <!-- input text element -->
-        <textarea class="form-control custom-color" aria-label="With textarea"></textarea>
+        <textarea class="form-control col-xl-9 col-sm-12 col-md-6 col-xm-12" aria-label="With textarea"></textarea>
         <!-- button group -->
-        <div class="input-group-append mx-o p-0 col-3">
-          <button class="btn btn-outline-secondary mx-0 col-6" type="button" id="button-addon">Save</button>
-          <button class="btn btn-outline-secondary mx-0 col-6" type="button" id="button-addon2">Delete</button>
-        </div>
+        <div class="input-group-append mx-o p-0 col-xl-1 col-sm-12 col-md-3 col-xm-12">
+          <button class="btn btn-outline-secondary mx-0 col-12" type="button" id="button-addon">Save</button>
+       </div>
       </div>
     </div>
 
