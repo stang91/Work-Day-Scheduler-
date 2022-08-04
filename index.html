@@ -26,24 +26,24 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDay" class="lead hour"></p>
+      <button class="btn btn-outline-secondary btnClear" type="button">Clear</button>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
 
       <!-- clone container input group -->
-      <div class="input-group container-fluid p-0 custom-hours0 custom-clone changeColor">
+      
+      <div class=" p-0 custom-hours0 custom-clone changeColor row">
         <!-- time Element -->
-        <div class="input-group-prepend p-0 col-xl-2 col-sm-12 col-md-3 col-xm-12">
-          <span class="input-group-text col-12 d-flex justify-content-center time0" id="addClass">12 AM</span>
-        </div>
+        <span class="input-group-text p-0 col-xl-2 col-sm-12 col-md-3 col-xm-12 d-flex justify-content-center description" id="addClass"></span>
         <!-- input text element -->
-        <textarea class="form-control col-xl-9 col-sm-12 col-md-6 col-xm-12" aria-label="With textarea"></textarea>
+        <textarea class="form-control col-xl-9 col-sm-12 col-md-6 col-xm-12 time-block"></textarea>
         <!-- button group -->
-        <div class="input-group-append mx-o p-0 col-xl-1 col-sm-12 col-md-3 col-xm-12">
-          <button class="btn btn-outline-secondary mx-0 col-12" type="button" id="button-addon"><i class='fas fa-save'></i></button>
+        <button class="btn btn-outline-secondary mx-0 p-0 col-xl-1 col-sm-12 col-md-3 col-xm-12 saveBtn" type="button"><i class='fas fa-save'></i></button>
        </div>
       </div>
+      
     </div>
 
 
