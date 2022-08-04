@@ -20,7 +20,6 @@ for(var i=13; i<24; i++){
     var w=i-12;
     var moreInput= $('.custom-clone').clone().addClass('custom-hours'+[i]).removeClass('custom-hours0 custom-clone');
     $('#addClass').addClass('time'+[i]).text([w]+' PM').removeClass('time'+[r]);
-    $('textarea').attr('id','time-'+[i]);
     $('.container').append(moreInput);
 };
 
