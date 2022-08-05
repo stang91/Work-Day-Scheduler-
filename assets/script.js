@@ -26,7 +26,7 @@ for(var i=n; i<b; i++){
     
 $('.container').append(moreInput);
 
-$('.custom-hours'+[n]).remove();
+$('.custom-hours'+n).remove();
 };
 
 //https://stackoverflow.com/questions/25680333/how-to-add-ids-to-tr-using-loop-in-jquery
