@@ -14,7 +14,7 @@
 [Scheduler](https://stang91.github.io/Work-Day-Scheduler-/)
 ## Usage
 
-![alt alt-img-names](websitelink)
+![alt alt-img-names](./assets/images/Schedule.gif)
 
 
 ## Credit
@@ -36,10 +36,12 @@ from ![stackoverflow](https://stackoverflow.com/questions/42963091/how-to-save-t
 
 I also used user's,br3t, example on how to loop getItem() and setItem() using localStorage.  For some apparent reason I just can't wrap my head around the concept.  I spent hours trying to figure out how to code it, and always end up over complicated it. hopefully I finally understand it.  It just might've been me over thinking it.
 
+I would also like to thank my brother, Sam Tang, for the helping out with the if else statements since I forgot to add the division agreement.
+
 ## What-I-would-like-to-do-or-try
-I would like to improve on this code because I feel that i can still tweek it a little more my gut says that it's not clean enough.
+I would like to improve on this code because I feel that I can still tweek it a little more my gut says that it's not clean enough.
 
-
+My brother, Sam, recommended using switch statement to write the time logic.  I think he is right with his recommendation since it would look cleaner and simpler for the statement instead of nesting the ifs and elses.
 
 <code>
 
@@ -92,7 +94,7 @@ I would like to improve on this code because I feel that i can still tweek it a 
 
 
 
-I need to study more about localStorage, it seems easy to understand however I just can't seem to wrap my mind around it. 
+I need to study more about localStorage, it seems easy to understand, however, I just can't seem to wrap my mind around it, when I begin to use loops and statements.
 
 
 
