@@ -3,7 +3,7 @@ window.setInterval(function () {
 }, 1000);
 // duplicate time block
 let n =5;
-let b =25;
+let b =22;
 //duplicate time block and insert class and text
 for(var i=n; i<(b+2); i++){  
     //clone time block and adding and removing class
@@ -65,7 +65,7 @@ $('.saveBtn').click(function saveNotes() {
     $(this).siblings(".description").removeClass("notSaved").addClass("Saved");
     // Save data to localstorage
     for (var i = n; i < (b+1); i++) {
-        ocalStorage.setItem("content"+ i, $("#content"+i).val());
+        localStorage.setItem("content"+ i, $("#content"+i).val());
     }
   });
 
