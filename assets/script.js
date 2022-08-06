@@ -58,14 +58,14 @@ let now=moment().hour();
 // create a loop for localstorage
 for (var i = n; i < (b+1); i++) {
     //get stored content 
-  $("#content"+i).val(localStorage.getItem("content"+i));
+  $('#content'+i).val(localStorage.getItem('content'+i));
 }
 
-$('.saveBtn').click(function saveNotes() {
-    $(this).siblings(".description").removeClass("notSaved").addClass("Saved");
+$('.saveBtn').click(function() {
+    $(this).siblings('.description').removeClass('notSaved').addClass('Saved');
     // Save data to localstorage
     for (var i = n; i < (b+1); i++) {
-        localStorage.setItem("content"+ i, $("#content"+i).val());
+        localStorage.setItem('content'+ i, $('#content'+i).val());
     }
   });
 
