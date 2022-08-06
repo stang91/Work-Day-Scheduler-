@@ -14,7 +14,7 @@
 [Scheduler](https://stang91.github.io/Work-Day-Scheduler-/)
 ## Usage
 
-![alt alt-img-names](./assets/images/schedule.gif)
+![alt alt-img-names](./assets/images/ezgif-schedule.gif)
 
 
 ## Credit
