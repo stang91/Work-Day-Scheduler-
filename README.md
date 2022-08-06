@@ -17,7 +17,7 @@ Life have always been busy and sometimes it can be hectic.  To combat the disarr
 
 ## Usage
 
-![alt alt-img-names](./assets/images/ezgif-schedule.gif)
+![alt schedule](./assets/images/ezgif-schedule.gif)
 
 ## Credit
 
