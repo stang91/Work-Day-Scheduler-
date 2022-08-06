@@ -46,9 +46,13 @@ I would like to improve on this code because I feel that i can still tweek it a 
 let b =22;
 //duplicate time block and insert class and text
 for(var i=n; i<(b+2); i++){  
+
     //clone time block and adding and removing class
+    
     let cloneTimeBlock= $('.custom-clone').clone().addClass('custom-hours'+i).removeClass('custom-clone');
+
     //reasoning and logic for adding text to time indicator
+    
     if (i%12===0){
         $('#addClass').text('12PM');
     }
@@ -63,11 +67,15 @@ for(var i=n; i<(b+2); i++){
         let j=i%12;
         $('#addClass').text(j+'AM');
     }
+
     // append clone to div container
+
     $('.container').append(cloneTimeBlock);
+
     //removes original empty clone    
     $('.custom-hours'+n).remove();
 };
+
 //remove cloning time block
 $('.custom-clone').remove();
 
@@ -83,13 +91,21 @@ I need to study more about localStorage, it seems easy to understand however I j
 
 <code>
 for (var i = n; i < (b+1); i++) {
+    
     //get stored content 
+
   $('#content'+i).val(localStorage.getItem('content'+i));
 }
 
+
 $('.saveBtn').click(function() {
+
     $(this).siblings('.description').removeClass('notSaved').addClass('Saved');
+
+
     // Save data to localstorage
+
+    
     for (var i = n; i < (b+1); i++) {
         localStorage.setItem('content'+ i, $('#content'+i).val());
     }
