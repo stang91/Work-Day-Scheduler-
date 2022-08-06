@@ -42,6 +42,7 @@ I would like to improve on this code because I feel that i can still tweek it a 
 
 
 <code>
+
     let n =5;
     let b =22;
 
@@ -90,12 +91,15 @@ I would like to improve on this code because I feel that i can still tweek it a 
 
 
 
+
 I need to study more about localStorage, it seems easy to understand however I just can't seem to wrap my mind around it. 
 
 
 
 
+
 <code>
+
     for (var i = n; i < (b+1); i++) {
 
         //get stored content 
@@ -115,4 +119,5 @@ I need to study more about localStorage, it seems easy to understand however I j
             localStorage.setItem('content'+ i, $('#content'+i).val());
         }
       });
+
 </code>
