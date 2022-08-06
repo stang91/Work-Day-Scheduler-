@@ -52,6 +52,7 @@ My brother, Sam, recommended using switch statement to write the time logic.  I 
 
 
 <code>
+
     let startTime =8;
     let endTime =18;
 
@@ -107,6 +108,7 @@ I need to study more about localStorage, it seems easy to understand, however, I
 
 
 <code>
+
     for (var i = startTime; i < (endTime+1); i++) {
 
         //get stored content 
