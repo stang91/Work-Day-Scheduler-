@@ -56,8 +56,7 @@ let now=moment().hour();
 
 //https://stackoverflow.com/questions/42963091/how-to-save-the-value-of-textarea-to-localstorage-then-display-it-in-the-same-te
 // create a loop for localstorage
-
-for (var i = n; i < (b+2); i++) {
+for (var i = n; i < (b+1); i++) {
     //get stored content 
   $("#content"+i).val(localStorage.getItem("content"+i));
 }
@@ -66,9 +65,7 @@ $('.saveBtn').click(function saveNotes() {
     $(this).siblings(".description").removeClass("notSaved").addClass("Saved");
     // Save data to localstorage
     for (var i = n; i < (b+1); i++) {
-        if($('.description').val()!==null){
-            localStorage.setItem("content"+ i, $("#content"+i).val());
-        }
+        ocalStorage.setItem("content"+ i, $("#content"+i).val());
     }
   });
 
