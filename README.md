@@ -1,7 +1,7 @@
 # Work-Day-Scheduler-
 ## Discription
 
-Life have always been busy and sometimes it can be hectic.  To combat the disarray, I created a work schedule so I can organize my workflow.  It allows me to keep track of my tasks and helps me organize my thoughts and workflow.
+Life have always been busy and sometimes it can be hectic.  To combat the disarray, I created a work schedule so I can be a little more organize.  It allows me to keep track of my tasks at hand and helps me organize my thoughts and workflow.  
 
 ## Table of Content
 
