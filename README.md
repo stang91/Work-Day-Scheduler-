@@ -42,13 +42,11 @@ from ![stackoverflow](https://stackoverflow.com/questions/42963091/how-to-save-t
 
 I also used user's,br3t, example on how to loop getItem() and setItem() using localStorage.  For some apparent reason I just can't wrap my head around the localStorage.  I spent hours trying to figure out how to code it, and always end up over complicating it. Hopefully, I will finally understand it.  It might've been just me over thinking it.
 
-I would also like to thank my brother, Sam Tang, for the helping out with the if else statements since I forgot to add the division agreement.
-
 ## What-I-would-like-to-do-or-try
 
 I would like to improve on this code because I feel that I can still tweek it a little more my gut says that it's not clean enough.
 
-My brother, Sam, recommended using switch statement to write the time logic.  I think he is right with his recommendation since it would look cleaner and simpler for the statement instead of nesting the ifs and elses since its just one liners ifs and elses.
+My brother, Sam Tang, recommended using switch statement to write the time logic.  I think he is right with his recommendation since it would look cleaner and simpler for the statement instead of nesting the ifs and elses since its just one liners ifs and elses. 
 
 
 <code>
@@ -66,11 +64,11 @@ My brother, Sam, recommended using switch statement to write the time logic.  I 
 
     //reasoning and logic for adding text to time indicator
     
-    if (i%12===0 && i/12===1){
-        $('#addClass').text('12PM');
+    if (i%24===0){
+        $('#addClass').text('12AM');
     }
     
-    else if(i%24===0 && i/24===1){
+    else if(i%12===0){
         $('#addClass').text('12AM');
     }
 

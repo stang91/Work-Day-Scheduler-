@@ -9,11 +9,11 @@ for(var i=startTime; i<(endTime+2); i++){
     //clone time block and adding and removing class
     let cloneTimeBlock= $('.custom-clone').clone().addClass('custom-hours'+i).removeClass('custom-clone');
     //reasoning and logic for adding text to time indicator
-    if (i%12===0 && i/12===1){
-        $('#addClass').text('12PM');
-    }
-    else if(i%24===0 && i/24===1){
+    if (i%24===0){
         $('#addClass').text('12AM');
+    }
+    else if(i%12===0){
+        $('#addClass').text('12PM');
     }
     else if(i%12!=i%24){
     let numberTime=i%12;
