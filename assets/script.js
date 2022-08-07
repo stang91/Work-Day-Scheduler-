@@ -1,3 +1,4 @@
+//display time in jumbotron
 window.setInterval(function () {
     $('#currentDay').html(moment().format('LLLL'));
 }, 1000);
@@ -10,24 +11,27 @@ for(var i=startTime; i<(endTime+2); i++){
     let cloneTimeBlock= $('.custom-clone').clone().addClass('custom-hours'+i).removeClass('custom-clone');
     //reasoning and logic for adding text to time indicator
     if (i%24===0){
-        $('#addClass').text('12AM');
+        $('#addClass').text('12AM');//display time for every 24hr to 12AM
     }
     else if(i%12===0){
-        $('#addClass').text('12PM');
+        $('#addClass').text('12PM');//display time for every 12th hr of 24 hr to 12PM
     }
     else if(i%12!=i%24){
     let numberTime=i%12;
-    $('#addClass').text(numberTime+'PM');
+    $('#addClass').text(numberTime+'PM');//display 1-11PM
     }
     else {
         let numberTime=i%12;
-        $('#addClass').text(numberTime+'AM');
+        $('#addClass').text(numberTime+'AM');//display 1-11AM
     }
     // append clone to div container
     $('.container').append(cloneTimeBlock);
     //removes original empty clone    
     $('.custom-hours'+startTime).remove();
 };
+
+//remove cloning time block
+$('.custom-clone').remove();
 
 //https://stackoverflow.com/questions/25680333/how-to-add-ids-to-tr-using-loop-in-jquery
 //add id attribute to description class and hour class
@@ -37,10 +41,8 @@ $('.description').each(function(index){
     //replace #addClass id attribute to time[i]
     $(this).siblings('.hour').prop('id','time'+(index+(startTime-1)));
 });
-//remove cloning time block
-$('.custom-clone').remove();
 
-//change the description classes to background indicators
+//change the description classes to background indicators by adding new class
 let now=moment().hour();
  $('.description').each(function () {
     let blockTime=parseInt($(this).attr('id').split('content')[1]);
@@ -60,7 +62,7 @@ for (var i = startTime; i < (endTime+1); i++) {
     //get stored content 
   $('#content'+i).val(localStorage.getItem('content'+i));
 }
-
+//save content to localStorage upon click
 $('.saveBtn').click(function() {
     $(this).siblings('.description').removeClass('notSaved').addClass('Saved');
     // Save data to localstorage
@@ -68,7 +70,7 @@ $('.saveBtn').click(function() {
         localStorage.setItem('content'+ i, $('#content'+i).val());
     }
   });
-
+//clear all descriptions and data in storage
 $('.btnClear').click(function(){
     $('.description').val('');
     localStorage.clear();
