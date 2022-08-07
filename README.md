@@ -17,7 +17,7 @@ Life have always been busy and sometimes it can be hectic.  To combat the disarr
 
 ## Usage
 
-![alt schedule](./assets/images/screenshots/ezgif.com-gif-maker1.gif)
+![alt schedule](./assets/screenshots/ezgif.com-gif-maker1.gif)
 ## Credit
 
 user - ![Oomph Fortuity](https://stackoverflow.com/users/1926762/oomph-fortuity)
