@@ -30,7 +30,6 @@ from ![stackoverflow](https://stackoverflow.com/questions/25680333/how-to-add-id
 
 I did most of the coding myself, however, I wouldn't have been able to complete the assignment without the help from stackoverflow, without the users' help I wouldn't be able to complete it in time.  
 
-
 I used user's, Oomph Fortuity, example to use prop() method and each(function(){}) method to create the id attribute. instead of attr() method.
 
 
@@ -45,8 +44,6 @@ I also used user's,br3t, example on how to loop getItem() and setItem() using lo
 ## What-I-would-like-to-do-or-try
 
 I would like to improve on this code because I feel that I can still tweek it a little more my gut says that it's not clean enough.
-
-My brother, Sam Tang, recommended using switch statement to write the time logic.  I think he is right with his recommendation since it would look cleaner and simpler for the statement instead of nesting the ifs and elses since its just one liners ifs and elses. 
 
 
 <code>
@@ -96,13 +93,7 @@ My brother, Sam Tang, recommended using switch statement to write the time logic
 </code>
 
 
-
-
-
 I need to study more about localStorage, it seems easy to understand, however, I just can't seem to wrap my mind around it, when I begin to use loops and statements.
-
-
-
 
 
 <code>
@@ -128,7 +119,6 @@ I need to study more about localStorage, it seems easy to understand, however, I
         }
       });
 </code>
-
 
 
 I would also like to add some modal so the user can change the time table, add some tags for tasks, and  order the tasks in the orders of urgency.
