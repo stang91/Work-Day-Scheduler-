@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
-    background-image: url(./images/website-img/work-img.jpeg);
+    background-image: url(./images/work-img.jpeg);
     background-size: cover;
     background-repeat:no-repeat;
     
@@ -26,7 +26,7 @@ body {
     color: white;
     border-radius: 0;
     border-bottom: 10px solid black;
-    background-image: linear-gradient(to right top, rgba(24, 84, 22, 0.6), rgba(0, 0, 0, 0.4)), url(./images/website-img/ZcVzSn.jpeg);
+    background-image: linear-gradient(to right top, rgba(24, 84, 22, 0.6), rgba(0, 0, 0, 0.4)), url(./images/ZcVzSn.jpeg);
     background-size: 100% 100%;
     background-repeat:no-repeat;
   }
@@ -49,7 +49,7 @@ body {
   .hour {
     color: #ffff;
     border: 1px solid #000000;
-    background-image: radial-gradient(rgba(14, 68, 25, 0.6), rgba(255, 0, 0, 0.6)), url(./images/website-img/VecteezyVintageBackgroundAT2308_generated.jpg);
+    background-image: radial-gradient(rgba(14, 68, 25, 0.6), rgba(255, 0, 0, 0.6)), url(./images/VecteezyVintageBackgroundAT2308_generated.jpg);
     background-size: 100% 100%;
     background-repeat:no-repeat;
     border-radius: 15px 0 0 15px;
