@@ -3,9 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
-    background-image: url(./images/work-img.jpeg);
-    background-size: cover;
-    background-repeat:no-repeat;
+    background-image: linear-gradient(to top right, rgb(7, 8, 10),rgb(0, 94, 255),rgb(0,0,0),rgb(0, 255, 247));
     
   }
   
@@ -26,7 +24,7 @@ body {
     color: white;
     border-radius: 0;
     border-bottom: 10px solid black;
-    background-image: linear-gradient(to right top, rgba(24, 84, 22, 0.6), rgba(0, 0, 0, 0.4)), url(./images/ZcVzSn.jpeg);
+    background-image: linear-gradient(to right top, rgba(24, 84, 22, 0.5), rgba(0, 0, 0.7)), url(./images/ZcVzSn.jpeg);
     background-size: 100% 100%;
     background-repeat:no-repeat;
   }
@@ -47,9 +45,9 @@ body {
   }
   
   .hour {
-    color: #ffff;
+    color: rgb(19, 204, 19);
     border: 1px solid #000000;
-    background-image: radial-gradient(rgba(14, 68, 25, 0.6), rgba(255, 0, 0, 0.6)), url(./images/VecteezyVintageBackgroundAT2308_generated.jpg);
+    background-image: radial-gradient(rgba(65, 65, 65,0.3),rgba(185, 185, 185, 0.6),rgb(119, 119, 119,0.6),rgba(59, 59, 59),rgb(0, 0, 0)), url(./images/VecteezyVintageBackgroundAT2308_generated.jpg);
     background-size: 100% 100%;
     background-repeat:no-repeat;
     border-radius: 15px 0 0 15px;
@@ -78,12 +76,12 @@ body {
     color: white;
   }
   
-  .saveBtn i:hover {
+  .saveBtn :hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
   .btnClear{
-    color:white;
+    color: white;
     border: white solid 1px;
   }
   
